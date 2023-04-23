@@ -1,3 +1,4 @@
+#!/bin/bash
 Usage: skrypt5.sh [OPTIONS]
 
 OPTIONS:
