@@ -1,6 +1,7 @@
-if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
-elif [ "$1" = "--logs" ] || [ "$1" = "-l" ]; then
-elif [ "$1" = "--date" ] || [ "$1" = "-d" ]; then
-else
-  "Nieznane polecenie. Użyj -help lub -h, aby wyświetlić dostępne opcje."
-fi
+Usage: skrypt5.sh [OPTIONS]
+
+OPTIONS:
+  -h, --help        Display this help message
+  -l, --logs [NUM]  Create NUM log files with names logX.txt, where X is the number of the file. In each file, the script will write its name, the name of the script that created it and the date.
+  -d, --date        Display today's date
+  -v, --version     Display the version number
