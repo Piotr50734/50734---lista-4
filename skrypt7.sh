@@ -1,10 +1,8 @@
 #!/bin/bash
 
 if [ "$1" = "--init" ]; then
-  # Clone repository
-  git clone <adres-repozytorium>
+  git clone <https://github.com/Piotr50734/50734---lista-4>
 
-  # Add script directory to PATH
   echo "export PATH=$PATH:$(pwd)/skrypt" >> ~/.bashrc
   source ~/.bashrc
 
